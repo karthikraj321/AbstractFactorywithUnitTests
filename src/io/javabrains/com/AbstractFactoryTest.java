@@ -22,10 +22,11 @@ class AbstractFactoryTests {
 				
 	}
 	@Test
-	void AbstractFactoryTest3() 
+	void validateSBIAbstractFactoryTest3() 
 	{
 					AbstractFactory bankFactory = FactoryCreator.getFactory("Bank");  
-				
+					Bank bank = bankFactory.getBank("SBI");
+					Assertions.assertEquals(bank instanceof  AbstractFactory, true);
 	}
 	
 	
