@@ -1,6 +1,9 @@
 package io.javabrains.com;
 import java.io.*; 
- interface Bank
+
+interface Bank
 {
-	String getBankName();  
+			
+		String getBankName();  
+
 }
