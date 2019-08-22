@@ -1,6 +1,6 @@
 package io.javabrains.com;
 
-class LoanFactory extends AbstractFactory
+ class LoanFactory extends AbstractFactory
 {  
 			public Bank getBank(String bank)
 			{  

@@ -1,8 +1,9 @@
 package io.javabrains.com;
 
-abstract class Loan{  
+abstract class Loan
+{  
 	   protected double rate;  
-	   abstract void getInterestRate(double rate);  
+	   public abstract void getInterestRate(double rate);  
 	   public void calculateLoanPayment(double loanamount, int years)  
 	   {  
 	        /* 
@@ -14,7 +15,7 @@ abstract class Loan{
 	              so, n=years*12; 
 	 
 	            */  
-	         double EMI;  
+		   	double EMI;  
 	         int n;  
 	  
 	         n=years*12;  

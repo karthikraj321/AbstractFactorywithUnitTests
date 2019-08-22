@@ -1,6 +1,6 @@
 package io.javabrains.com;
 
-class FactoryCreator
+ class FactoryCreator
 {  
     	public static AbstractFactory getFactory(String choice)
     	{  
