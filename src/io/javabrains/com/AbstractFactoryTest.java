@@ -31,6 +31,13 @@ class AbstractFactoryTests {
 	
 	
 	
+	@Test
+	void validateHDFCAbstractFactoryTest4() 
+	{
+					AbstractFactory bankFactory = FactoryCreator.getFactory("Bank");  
+					Bank bank = bankFactory.getBank("HDFC");
+					Assertions.assertEquals(bank instanceof  AbstractFactory, true);
+	}
 	
 
 
